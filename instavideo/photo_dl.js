@@ -1,1 +1,0 @@
-javascript:(()=>{const m=document.querySelector('meta[property="og:image"]');if(!m){alert('Image not found');return;}const a=document.createElement('a');a.href=m.content;a.download='instagram.jpg';document.body.appendChild(a);a.click();a.remove();})();
